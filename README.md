@@ -7,8 +7,18 @@ Build [docker](http://docker.com "Docker") image.
 ```
 git clone http://github.com/cloudcmd/docker
 cd docker
-npm install cloudcmd
 docker build -t cloudcmd .
+```
+
+## Get
+
+```
+docker pull coderaiser/cloudcmd
+```
+
+## Run
+
+```
 docker run -p 8000:8000 cloudcmd
 ```
 

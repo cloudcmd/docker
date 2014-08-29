@@ -1,7 +1,7 @@
 FROM node
 
-ADD . /usr/src/app
-WORKDIR /usr/src/app
+WORKDIR /root
+RUN npm install cloudcmd
 
 # replace this with your application's default port
 EXPOSE 8000

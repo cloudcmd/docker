@@ -11,7 +11,7 @@ docker pull coderaiser/cloudcmd
 ## Run
 
 ```
-docker run -p 8000:8000 cloudcmd
+docker run -it -p 8000:8000 cloudcmd
 ```
 
 ## Build

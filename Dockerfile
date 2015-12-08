@@ -1,10 +1,5 @@
-FROM node
+FROM node:onbuild
 
-WORKDIR /root
-RUN npm install cloudcmd
-
-# replace this with your application's default port
 EXPOSE 8000
 
-# replace this with your main "server" script file
-CMD [ "node", "node_modules/cloudcmd/bin/cloudcmd.js" ]
+CMD [ "npm", "start" ]
